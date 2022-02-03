@@ -24,3 +24,15 @@ console.log(favoriteColor)
 document.getElementById("fav_color").innerHTML = favoriteColor
 console.log(document)
 
+
+// User Password
+const userPassword = document.getElementById("userPassword").innerHTML = userName + userSurname + favoriteColor
+console.log(userPassword)
+
+//Costante Numero
+const number = 23
+console.log(number) 
+
+// Costante userPassword + costante number
+const userPasswordNumber = document.getElementById("userPassword").innerHTML = userPassword + number
+console.log(userPasswordNumber)
