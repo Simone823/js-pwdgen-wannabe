@@ -15,3 +15,12 @@ console.log(userSurname)
 document.getElementById("userSurname").innerHTML = userSurname
 console.log(document)
 
+
+// Favorite color
+let favoriteColor = prompt("Il tuo colore preferito? (Digita qui il tuo colore preferito)")
+console.log(favoriteColor)
+
+// Stampa favoriteColor in index.html
+document.getElementById("fav_color").innerHTML = favoriteColor
+console.log(document)
+
